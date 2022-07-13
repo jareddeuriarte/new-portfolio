@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Source+Serif+Pro:wght@200;300&display=swap');
 
 
+html{
+    height: 100vh;
+}
+
 body{
     height: 100vh;
 }
+
+
 h1{
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #F59566;
+    text-decoration-thickness: 5px;
 }
 
 h3{
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     text-align: center;
+    /* text-decoration: underline;
+    text-decoration-color: #F59566;
+    text-decoration-thickness: 5px; */
+
 }
 
 p{
@@ -24,16 +37,19 @@ p{
 }
 
 
-
-
 a{
-    text-decoration: inherit;
+    text-align: center;
     color: inherit;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-style: italic;
-    padding: 2em;
+    margin: 2em;
     align-items: center;
+
+}
+
+a:hover{
+    background-color: #B0BDD2 ;
 
 }
 
@@ -42,6 +58,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 4rem;
 
 }
 
@@ -57,3 +74,19 @@ a{
     max-width: 65%;
     justify-content: space-around;
 }
+
+.about{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    max-width: 32rem;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 11px 36px 0 rgb(210 211 230 / 39%);
+    
+    /* backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+

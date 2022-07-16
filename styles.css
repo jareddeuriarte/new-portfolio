@@ -66,6 +66,19 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 40rem;
+
+    /* raised box */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+     rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+     /* inset box */
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+      rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+
 }
 
 .grid{
@@ -77,16 +90,42 @@ a:hover{
 
 .about{
     margin-top: 5rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     padding: 2rem;
     max-width: 32rem;
-    background: rgba( 255, 255, 255, 0.15 );
-    box-shadow: 0 11px 36px 0 rgb(210 211 230 / 39%);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;    
     
-    /* backdrop-filter: blur( 1.5px );
-    -webkit-backdrop-filter: blur( 1.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    /* RAINBOW outlines     */
+    /* box-shadow: blue 0px 0px 0px 2px inset,
+      rgb(255, 255, 255) 10px -10px 0px -3px,
+      rgb(31, 193, 27) 10px -10px,
+      rgb(255, 255, 255) 20px -20px 0px -3px,
+      rgb(255, 217, 19) 20px -20px,
+      rgb(255, 255, 255) 30px -30px 0px -3px,
+      rgb(255, 156, 85) 30px -30px,
+      rgb(255, 255, 255) 40px -40px 0px -3px,
+      rgb(255, 85, 85) 40px -40px; */
+   
+   
+
+    /* PALET outlines */
+    box-shadow: rgb(255, 120, 87) 0px 0px 0px 2px inset,
+    rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(82, 146, 255) 10px -10px,
+    rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(118, 198, 255) 20px -20px,
+    rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 189, 118) 30px -30px,
+    rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 216, 131) 40px -40px;
+
+
+    /* Gradient shadow */
+    /* box-shadow: rgba(82, 146, 255, 0.4) 5px 5px, 
+    rgba(82, 146, 255, 0.3) 10px 10px,
+    rgba(82, 146, 255, 0.2) 15px 15px,
+    rgba(82, 146, 255, 0.1) 20px 20px,
+    rgba(82, 146, 255, 0.05) 25px 25px;} */
+
 }
-
-

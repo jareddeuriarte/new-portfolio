@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Source+Serif+Pro:wght@200;300&display=swap');
 
 
-html{
+html {
     height: 100vh;
 }
 
-body{
+body {
     height: 100vh;
 }
 
 
-h1{
+h1 {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     text-decoration: underline;
     text-decoration-color: #F59566;
     text-decoration-thickness: 5px;
+    font-size: 2.5rem;
+    max-width: 35%;
 }
 
-h3{
+h3 {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -28,7 +30,7 @@ h3{
 
 }
 
-p{
+p {
     font-family: 'Source Serif Pro', serif;
     font-weight: 200;
     font-weight: 300;
@@ -37,7 +39,7 @@ p{
 }
 
 
-a{
+a {
     text-align: center;
     color: inherit;
     font-family: 'DM Sans', sans-serif;
@@ -48,13 +50,13 @@ a{
 
 }
 
-a:hover{
-    background-color: #B0BDD2 ;
+a:hover {
+    background-color: #B0BDD2;
 
 }
 
 
-.centering{
+.centering {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +64,7 @@ a:hover{
 
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,32 +72,32 @@ a:hover{
 
     /* raised box */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-     rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
-     /* inset box */
-     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-      rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    /* inset box */
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+        rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 
-      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 
 
 }
 
-.grid{
+.grid {
     display: flex;
     flex-wrap: wrap;
     max-width: 65%;
     justify-content: space-around;
 }
 
-.about{
+.about {
     margin-top: 5rem;
     margin-left: 4rem;
     margin-right: 4rem;
-    padding: 2rem;
+    padding: 1.5rem;
     max-width: 32rem;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;    
-    
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
     /* RAINBOW outlines     */
     /* box-shadow: blue 0px 0px 0px 2px inset,
       rgb(255, 255, 255) 10px -10px 0px -3px,
@@ -106,19 +108,19 @@ a:hover{
       rgb(255, 156, 85) 30px -30px,
       rgb(255, 255, 255) 40px -40px 0px -3px,
       rgb(255, 85, 85) 40px -40px; */
-   
-   
+
+
 
     /* PALET outlines */
     box-shadow: rgb(255, 120, 87) 0px 0px 0px 2px inset,
-    rgb(255, 255, 255) 10px -10px 0px -3px,
-    rgb(82, 146, 255) 10px -10px,
-    rgb(255, 255, 255) 20px -20px 0px -3px,
-    rgb(118, 198, 255) 20px -20px,
-    rgb(255, 255, 255) 30px -30px 0px -3px,
-    rgb(255, 189, 118) 30px -30px,
-    rgb(255, 255, 255) 40px -40px 0px -3px,
-    rgb(255, 216, 131) 40px -40px;
+        rgb(255, 255, 255) 10px -10px 0px -3px,
+        rgb(82, 146, 255) 10px -10px,
+        rgb(255, 255, 255) 20px -20px 0px -3px,
+        rgb(118, 198, 255) 20px -20px,
+        rgb(255, 255, 255) 30px -30px 0px -3px,
+        rgb(255, 189, 118) 30px -30px,
+        rgb(255, 255, 255) 40px -40px 0px -3px,
+        rgb(255, 216, 131) 40px -40px;
 
 
     /* Gradient shadow */
@@ -127,5 +129,26 @@ a:hover{
     rgba(82, 146, 255, 0.2) 15px 15px,
     rgba(82, 146, 255, 0.1) 20px 20px,
     rgba(82, 146, 255, 0.05) 25px 25px;} */
+
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.me {
+    max-width: 45%;
+
+     /* inset box */
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+ box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+    
 
 }

@@ -39,7 +39,15 @@ p {
 
 }
 
-
+.about p a {
+    text-align: center;
+    color: inherit;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    align-items: center;
+}
 
 a {
     text-align: center;

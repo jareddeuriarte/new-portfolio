@@ -39,6 +39,10 @@ p {
 
 }
 
+.about p{
+    margin-top: 2em;
+}
+
 .about p a {
     text-align: center;
     color: inherit;

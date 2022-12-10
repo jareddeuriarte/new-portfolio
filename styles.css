@@ -36,7 +36,9 @@ p {
     font-weight: 300;
 
 
+
 }
+
 
 
 a {
@@ -89,6 +91,8 @@ a:hover {
     max-width: 65%;
     justify-content: space-around;
 }
+
+
 
 .about {
     margin-top: 5rem;

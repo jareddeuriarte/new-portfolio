@@ -40,7 +40,6 @@ p {
 }
 
 .about p{
-    margin-top: 2em;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -169,3 +168,30 @@ a:hover {
     
 
 }
+
+
+
+@media screen and (max-width: 414px) {
+
+    .about h1{
+
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-color: #F59566;
+        text-decoration-thickness: 5px;
+        font-size: 1.5rem;
+
+    }
+
+
+    .me{
+        max-width: 45%;
+    }
+
+    .about p{
+        font-size:67%;
+
+    }
+   
+  }

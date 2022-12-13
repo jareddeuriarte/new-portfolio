@@ -185,5 +185,9 @@ a:hover {
         font-size:67%;
 
     }
+
+    .grid a{
+        margin: 0;
+    }
    
   }

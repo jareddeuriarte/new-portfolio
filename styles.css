@@ -181,6 +181,10 @@ a:hover {
         padding:0;
     }
 
+    .about{
+        padding: .5em;
+    }
+
     .about p{
         font-size:67%;
 
